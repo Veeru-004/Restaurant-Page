@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Usha Star Restaurant</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./bootstrap.css'>
+    <script src="./bootstrap.min.js"></script>
+    <script src="/JQuery/jquery.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='Style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="navbar-header">
+                <a href="./Home_Page.html" class="pull-left visible-lg visible-md">
+                    <div>
+                        <img src="https://restaurant.eatapp.co/hubfs/Modern-Restaurant-Logo.jpg" id="logo-img"
+                            style="height: 150px;width: 200px; margin: 15px;border-radius: 20px;" alt="Logo Image" />
+                    </div>
+                </a>
+                <div class="navbar-brand"><a href="./Home_Page.html">
+                        <h1>Star Restaurant</h1>
+                    </a>
+                    <span style="margin-top: 10px;margin-left: 10px; color:black;">Yours Choice is Our Choice</span>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Togggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right ">
+                    <li>
+                        <a href="./Home_Page.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                            </svg><br class="hidden-xs">Home</a>
+                    </li>
+                    <li>
+                        <a href="./Menu.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                            </svg><br class="hidden-xs">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg><br class="hidden-xs">About us</a>
+                    </li>
+                    <li id="phone" class="hidden-xs">
+                        <a href="tel:000-000-0000">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+                            </svg><span>000-000-0000</span></a>
+                        <div>*We Deliver</div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:000-000-0000"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+            </svg><span>000-000-0000</span></a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">*We Deliver</div>
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <img src="./MainImage.jpg" alt="Picture of Restaurant" class="img-resposive visible-xs">
+        </div>
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="./Menu.html">
+                    <div id="menu-tile"><span>Menu</span></div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div id=" -tile"><span>specials</span></div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/J7yRD61TniFEZabH9" target="_blank">
+                    <div id="map-tile"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15359.109089033467!2d77.4800689!3d15.7629175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66f483a9436a57ca!2sUsha%20Star!5e0!3m2!1sen!2sin!4v1626261953737!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <span>Map</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-md-4">
+                    <span>Hours: </span><br>
+                    Saturday Closed 
+                    <hr class="visible-xs">
+                </section>
+<section id="address" class="col-sm-4">
+    <span>Address:</span><br>
+    Yemmiganur,Kurnool,Andhra Pradesh<p>*Delivery Area within 3-4 miles,with minimum order of 100INR,20INR charge for all deliveries</p>
+    <hr class="visible-xs">
+</section>
+<section id="testimonals" class="col-sm-4">
+<p>"The best restaurant i have been too! And that's saying a lot,since I have been to many!"</p>
+<P>"Amazing Food! Great service Couldn't ask for more!.I'll be back again and again!"</P>
+</section>
+</div>
+<div class="text-center">&copy;Copyright Usha Star Restaurant 2021</div>
+         
+           </footer>
+
+
+</body>
+
+</html>

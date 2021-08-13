@@ -1,0 +1,62 @@
+body {font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif; background-color:#87ceeb;}
+
+#header-nav {background-color:bisque; border-radius:0; border:0;}
+
+.navbar-brand h1 {padding:5px; color:tomato; text-transform:uppercase;}
+.navbar-brand a:focus,.navbar-brand a:hover {text-decoration:none;}
+.navbar-brand p {color:#000; text-transform:uppercase; font-size:7em; margin-top:15px;}
+.navbar-brand p span {vertical-align:middle;}
+#navlist {margin-top:10px;}
+#nav-list a {color:#951c49; text-align:center; font-size:large;}
+#nav-list a:hover {background:#fff8dc;}
+#nav-list a span {font-size:2em;}
+#phone {margin-top:5px;}
+#phone a {text-align:right; padding:bottom 0;}
+#phone div {color:#557c3e; text-align:right; padding-right:15px;}
+.navbar-header button.navbar-toggle,.navbar-header.icon-bar {border:2px rgb(230, 19, 30);}
+.navbar-header button.navbar-toggle {clear:both; margin-top:-30px;}
+.container.jumbotron {box-shadow:0 0 50px #000; border:2px solid tomato;}
+#map-tile,#menu-tile,#specials-tile {height:250px; width:100%; margin-bottom:15px; position:relative; border:2px solid #3f0c1f; overflow:hidden;}
+#map-tile:hover,#menu-tile:hover,#specials-tile:hover {box-shadow:0 1px 5px 1px #cccc;}
+#menu-tile {background:url("./Menuo.jpg") no-repeat; background-position:center;}
+#specials-tile {background:url('./Specials.jpg') no-repeat; background-position:center;}
+#map-tile span,#menu-tile span,#specials-tile span {position:absolute; bottom:0; right:0; width:100%; text-align:center; font-size:1.6em; text-transform:uppercase; background-color:#000; color:#fff; opacity:.8;}
+/* larges devices */
+@media (min-width:1200px) {
+.container .jumbotron {background:url('./MainImage.jpg') center; height:675px;}
+}
+/* medium devices */
+@media(min-width:992px) and (max-width:1199px) {
+#logo-img {width:50px; height:50px; margin:5px 5px 5px 0;}
+.container .jumbotron {background:url('./MainImage.jpg') no-repeat center; height:558px;}
+}
+/* small devices */
+@media (min-width:768px) and (max-width:991px) {
+.container .jumbotron {background:url('./MainImage.jpg') no-repeat center; height:432px;}
+}
+/* extra small devices */
+@media(max-width:767px) {
+.navbar-brand {padding-top:10px; height:80px;}
+.navbar-brand h1 {padding-top:10px; font-size:5vw;}
+.navbar-brand p {font-size:6em; margin-top:12px;}
+#collapsable-nav a {font-size:1.2em;}
+#collapsable-nav a span {font-size:1em; margin-right:5px;}
+#call-btn>a {font-size:1.5em; display:block; margin:0 20px; padding:10px; border:2px solid #fff; background-color:wheat; color:#000;}
+#xs-deliver {margin-top:5px; font-size:.7em; letter-spacing:.1em; text-transform:uppercase;}
+.container.jumbotron {margin-top:30px; padding:0;}
+}
+@media(max-width:479px) {
+/*   .navbar-brand h1{
+        padding-top: 5px;
+        font-size: 6vw;
+    } */
+#menu-tile,#specials-tile {width:280px; margin:0 auto 15px;}
+}
+.panel-footer {margin-top:30px; padding-top:35px; padding-bottom:30px; background-color:tomato; border-top:0;}
+.row {margin-bottom:35px;}
+#address,#hours {line-height:2;}
+#address>span,#hours>span {font-size:1.3em;}
+#address p {color:#fafad2; font-size:.8em; line-height:1.8;}
+#testimonals {font-style:italic;}
+#testimonals p:nth-child(2) {margin-top:25px;}
+
